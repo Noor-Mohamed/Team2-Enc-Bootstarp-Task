@@ -12,7 +12,113 @@
 /* --------------------------------------------------------------------- */
 /* ----------Mohamed Ahmed--------- */
 /* --------------------------------------------------------------------- */
+/* Enactus color #FEBF0F  /
+/ 'Oxygen', Sans-Serif /
+/ 'Roboto', sans-serif /
+/ black-gray #1d1d1da2 */
 
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 160px;
+    height: 90px;
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    background-color: #000;
+    opacity: 0.84;
+    padding: 0;
+    margin: 0;
+}
+#header .logo{
+    margin: 30px;
+    line-height: 1;
+    font-size: 35px;
+}
+nav{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.main-info{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+nav:hover .main-info a {
+    opacity: 0.3;
+}
+
+.main-info li a{
+    color: #fff;
+    padding: 12px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 14px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.main-info li a:hover{
+    background-color: #febf0f;
+    opacity: 1;
+}
+
+/* Start styling dropdown button */
+
+.dropdown button{
+    color: #000;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    border-radius: 14px;
+    transition: 0.3s ease;
+    margin-top: 15px;
+}
+.dropdown button:hover{
+    color: #efefef;
+    opacity: 0.95;
+}
+
+.dropdown .dropdown-menu {
+    align-items: center;
+    background-color: #1d1d1da2;
+    padding:10px;
+    opacity: 1;
+}
+
+.dropdown-menu li a {
+    color: #fff;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+    transition: 0.5s ease;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #1d1d1da2;
+    color: #fff;
+}
+
+/* End styling dropdown button */
 
 
 
