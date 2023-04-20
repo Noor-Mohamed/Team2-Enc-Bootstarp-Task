@@ -6,7 +6,33 @@
 /* ----------Noor--------- */
 /* --------------------------------------------------------------------- */
 
+.main_text{
+    display: flex;
+}
 
+.line{
+    width: 1%;
+    height: 140px;
+    background-color: #FEBF0F;
+}
+
+
+
+.main_link:link,
+.main_link:visited{
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 1.5%;
+    border-radius: 15px;
+    transition: 0.3s;
+    
+}
+
+.main_link:hover{
+    background-color: rgb(21, 21, 21);
+    color: #FEBF0F;
+}
 
 
 /* --------------------------------------------------------------------- */
