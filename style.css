@@ -123,5 +123,26 @@ nav{
 
 
 /* --------------------------------------------------------------------- */
-/* ----------Yumna--------- */
+/* ----------Youmna--------- */
 /* --------------------------------------------------------------------- */
+.text_left{
+float: left;
+width: 50%;
+text-align: left;
+display: block;
+margin-right: 50%;
+}
+.text_right {
+    float: right;
+    width: 50%;
+    text-align: right;
+    display: block;
+    margin-left: 50%;
+}
+.landingcontainer{
+    margin-top: 100px;
+    color: white;
+}
+.landing_text{
+    border-top: 1px solid #FEBF0F;
+}
