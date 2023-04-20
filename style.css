@@ -2,6 +2,19 @@
 /* IMPORTANT NOTE:::please if you want added any style add it in your own section with unique class names */
 /* --------------------------------- */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+
+
+
 /* --------------------------------------------------------------------- */
 /* ----------Noor--------- */
 /* --------------------------------------------------------------------- */
