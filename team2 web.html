@@ -14,37 +14,50 @@
     <!--------------------------->
     <section>
         <header id="header" class="fixed-top">
-            <div class="container-fluid d-flex justify-content-between">
-                <img class="rounded float-right img-fluid nav_logo" src="imgs/Enactus_Logo_W.png" alt="logo">
-                <!-- Start Nav Bar -->
-
-                <nav class="nav-menu d-done d-lg-block main-nav">
-                    
-                    <ul>
-                        <div class="main-info">
-                            <li class="nav-item"><a href="#">Home</a></li>
-                            <li class="nav-item"><a href="#">Best Members</a></li>
-                            <li class="nav-item"><a href="#">Our Event</a></li>
-                            <li class="nav-item"><a href="#">Our Great Hight Board</a></li>
-                        </div>
-                        <!-- Start Dropdown  -->
-                        <div class="dropdown">
-                            <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Department
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Technology</a></li>
-                                <li><a class="dropdown-item" href="#">HR</a></li>
-                                <li><a class="dropdown-item" href="#">PR/FR</a></li>
-                                <li><a class="dropdown-item" href="#">Presenetation</a></li>
-                                <li><a class="dropdown-item" href="#">Media</a></li>
-                            </ul>
-                        </div>
-                    <!-- End Dropdown  -->
-                    </ul>
-                </nav>
-                <!-- End Nav Bar -->
-            </div>
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #000;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="imgs/Enactus_Logo_W.png" width="120"  alt="logo">
+                    </a>
+                    <button class="navbar-toggler" style="color: #fff;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <div class="nav-list-info">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mohamed-list">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#">Best Members</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#" aria-current="page">Our Event</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#" aria-current="page">Our Great Hight Board</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dropdown drop-mohamed">
+                                <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Department
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Technology</a></li>
+                                    <li><a class="dropdown-item" href="#">HR</a></li>
+                                    <li><a class="dropdown-item" href="#">PR/FR</a></li>
+                                    <li><a class="dropdown-item" href="#">Presenetation</a></li>
+                                    <li><a class="dropdown-item" href="#">Media</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
     </section>
     <!--------------------------->
@@ -87,7 +100,7 @@
     <!--------------------------->
     <!-------------------------video------------------------------->
     <!--------------------------->
-    <section>
+    <section style="margin-top: 150px;">
         <video class="w-100" autoplay muted loop>
             <source src="imgs/video.mp4" type="video/mp4">
         </video>

@@ -16,8 +16,6 @@
     background-color: #FEBF0F;
 }
 
-
-
 .main_link:link,
 .main_link:visited{
     text-decoration: none;
@@ -38,116 +36,75 @@
 /* --------------------------------------------------------------------- */
 /* ----------Mohamed Ahmed--------- */
 /* --------------------------------------------------------------------- */
-/* Enactus color #FEBF0F  /
-/ 'Oxygen', Sans-Serif /
-/ 'Roboto', sans-serif /
-/ black-gray #1d1d1da2 */
-
-* {
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-}
+/* Enactus color #FEBF0F  */
+/* 'Oxygen', Sans-Serif */
+/* 'Roboto', sans-serif */
+/* black-gray #1d1d1da2 */
+/* filter:blur(0)  */
 
 
-
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-.nav_logo{
-    width: 160px;
-    height: 90px;
-    padding: 0;
-    margin: 0;
-}
-
-#header{
-    background-color: #000;
-    opacity: 0.84;
-    padding: 0;
-    margin: 0;
-}
-#header .logo{
-    margin: 30px;
-    line-height: 1;
-    font-size: 35px;
-}
 nav{
-    padding: 0;
-    margin: 0;
-}
-ul{
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-    list-style-type: none;
+    opacity: 0.9;
 }
 
-.main-info{
-    display: flex;
-    justify-content: space-around;
-    margin-right: 30px;
-    margin-top: 30px;
+.nav-list-info{
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
-nav:hover .main-info a {
-    opacity: 0.3;
-}
-
-.main-info li a{
-    color: #fff;
-    padding: 12px;
-    margin: 10px;
-    font-size: 20px;
+.mohamed-list li .nav-link:link,
+.mohamed-list li .nav-link:visited{
     font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-right: 19px;
+    padding-left: 12px;
     border-radius: 14px;
-    text-decoration: none;
-    transition: 0.5s ease;
+    transition: 0.6s ease;
 }
-.main-info li a:hover{
-    background-color: #febf0f;
+
+.mohamed-list:hover li .nav-link{
+    opacity: 0.5;
+}
+.mohamed-list li .nav-link:hover{
+    background-color: #FEBF0F;
+    color: #fff;
     opacity: 1;
 }
 
-/* Start styling dropdown button */
+/* start Dropdown Styling */
 
-.dropdown button{
-    color: #000;
+.drop-mohamed button{
+    margin-top: 5px;
+    margin-right: 10px;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
     padding: 15px;
     border-radius: 14px;
-    transition: 0.3s ease;
-    margin-top: 15px;
 }
-.dropdown button:hover{
+
+.drop-mohamed button:hover{
     color: #efefef;
     opacity: 0.95;
 }
-
-.dropdown .dropdown-menu {
-    align-items: center;
+.drop-mohamed ul{
     background-color: #1d1d1da2;
     padding:10px;
     opacity: 1;
 }
-
-.dropdown-menu li a {
+.drop-mohamed ul li a{
     color: #fff;
-    border-radius: 5px;
-    padding-left: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
     transition: 0.5s ease;
 }
 
-.dropdown-menu li a:hover{
+.drop-mohamed ul li a:hover{
     background-color: #FEBF0F;
     color: #fff;
+    opacity: 1;
 }
-
-/* End styling dropdown button */
+/* End Dropdown Styling */
 
 
 
