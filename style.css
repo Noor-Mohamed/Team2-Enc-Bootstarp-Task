@@ -23,6 +23,9 @@
     scroll-behavior: smooth;
 }
 
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -114,7 +117,7 @@ nav:hover .main-info a {
 }
 
 .dropdown-menu li a:hover{
-    background-color: #1d1d1da2;
+    background-color: #FEBF0F;
     color: #fff;
 }
 
