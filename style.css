@@ -131,9 +131,8 @@ nav{
 /* --------------------------------------------------------------------- */
 /* ----------Mohamed Medhat--------- */
 /* --------------------------------------------------------------------- */
-
 .card2{
- 
+    margin-bottom: 100px;
     position: relative;
     background-color: #252525;
     height: 300px;
@@ -151,10 +150,9 @@ nav{
 .line{
     margin: 16px;
     height: 5px;
-    width: 60px;
+    width: 0px;
     background-color: #2e3033;
-    position: absolute;
-    bottom: 10px;
+
     transition: 0.5s;
 }
 
