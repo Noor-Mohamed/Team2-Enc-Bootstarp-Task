@@ -23,7 +23,7 @@ html {
     display: flex;
 }
 
-.line{
+.line_main{
     width: 1%;
     height: 140px;
     background-color: #FEBF0F;
@@ -132,7 +132,45 @@ nav{
 /* ----------Mohamed Medhat--------- */
 /* --------------------------------------------------------------------- */
 
+.card2{
+ 
+    position: relative;
+    background-color: #252525;
+    height: 300px;
+    width: 171px;
+    border-radius: 12px;
+    box-shadow: -16px 0 48px #000;
+    left: 0;
+    margin-left: -8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.line{
+    margin: 16px;
+    height: 5px;
+    width: 60px;
+    background-color: #2e3033;
+    position: absolute;
+    bottom: 10px;
+    transition: 0.5s;
+}
 
+.card2:hover .line{
+    width: 100px;
+    background: #FEBF0F;
+}
+.card2:hover{
+    transform: translateX(-15px);
+    color: #fff;
+
+}
+
+.card2:hover .card-img-top{
+    opacity: 0.75;
+}
 
 
 /* --------------------------------------------------------------------- */
