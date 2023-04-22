@@ -57,7 +57,7 @@ html {
 
 
 nav{
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .nav-list-info{
@@ -188,7 +188,7 @@ margin-right: 50%;
     margin-left: 50%;
 }
 .landingcontainer{
-    margin-top: 100px;
+    padding-top: 100px;
     color: white;
 }
 .landing_text{
