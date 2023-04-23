@@ -13,8 +13,185 @@ html {
     scroll-behavior: smooth;
 }
 
+/* --------------------------------------------------------------------- */
+/* ----------Animated circles--------- */
+/* --------------------------------------------------------------------- */
+.circle1{
+    width: 250px;
+    height: 250px;
+    background-color: #d9d9d921;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+    .circle1 {
+        width: 140px;
+        height: 140px;
+    }
+    
+  }
+
+.circle2{
+    width: 170px;
+    height: 170px;
+    background-color: #d9d9d921;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+    .circle2{
+        width: 100px;
+        height: 100px;
+    } 
+}
+
+.circle3{
+    width: 100px;
+    height: 100px;
+    background-color: #d9d9d921;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+    .circle3{
+        width: 60px;
+        height: 60px;
+    } 
+}
+
+.animation1{
+    animation-name: animation1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation1{
+    0% {
+        transform: rotate(0deg) translate(-1em) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translate(-1em) rotate(-360deg);
+    }
+}
 
 
+.animation2{
+    animation-name: animation2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation2{
+    0% {
+        transform: rotate(0deg) translate(-1em) rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg) translate(-1em) rotate(360deg);
+    }
+}
+
+
+.animation3{
+    animation-name: animation3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation3{
+    0% {
+        transform: rotate(0deg) translate(-1em) rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) translate(-1em) rotate(-360deg);
+    }
+}
+
+.animation4{
+    animation-name: animation4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation4{
+    0% {
+        transform: rotate(0deg) translate(-1em) rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg) translate(-1em) rotate(360deg);
+    }
+}
+
+/* positions */
+.c1{
+    top: 160px;
+    right: 3%;
+}
+.c2{
+    top: 230px;
+    left: 10%;
+}
+.c3{
+    top: 560px;
+    right: 50%;
+}
+.c4{
+    top: 800px;
+    left: 2%;
+}
+.c5{
+    top: 1260px;
+    right: 30%;
+}
+.c6{
+    top: 1420px;
+    left: 4%;
+}
+.c7{
+    top: 1600px;
+    right: 5%;
+}
+.c8{
+    top: 1900px;
+    left: 30%;
+}
+.c9{
+    top: 2200px;
+    right: 3%;
+}
+.c10{
+    top: 2500px;
+    left: 10%;
+}
+.c11{
+    top: 2780px;
+    right: 50%;
+}
+.c12{
+    top: 3000px;
+    left: 2%;
+}
+.c13{
+    top: 3300px;
+    right: 30%;
+}
+.c14{
+    top: 3630px;
+    left: 4%;
+}
+.c15{
+    top: 3900px;
+    right: 5%;
+}
+.c16{
+    top: 4200px;
+    left: 30%;
+}
 /* --------------------------------------------------------------------- */
 /* ----------Noor--------- */
 /* --------------------------------------------------------------------- */
