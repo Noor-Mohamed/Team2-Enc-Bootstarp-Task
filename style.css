@@ -378,16 +378,9 @@ margin-right: 50%;
 .enactus_brand{
     margin-left: 80px;
 }
-.enactus_brand img{
-    margin-left: 40px;
-}
-.hook{
-    margin-top: 60px;
-    margin-left: 20px;
-}
+
 .social_footer{
     margin-top: 20px;
-    margin-left: 35px;
 }
 .facebook:link,
 .facebook:visited{
@@ -431,4 +424,35 @@ margin-right: 50%;
     font-size: 15px;
     color: #fff;
 }
+
+.footer_hover li a:link,
+.footer_hover li a:visited{
+    text-decoration: none;
+    color: rgb(152, 152, 152);
+    font-size: 80%;
+    display: inline-block;
+}
+
+.footer_hover li{
+    padding: 0;
+}
+
+.footer_hover li a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 1px #FEBF0F;  
+    transform: scaleX(0);  
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer_hover li a:hover:after{
+    transform: scaleX(1);
+}
+
+/* .footer_hover li a:after{
+    transform-origin:  0% 50%;
+} */
+
+
+
 /* End Footer */
