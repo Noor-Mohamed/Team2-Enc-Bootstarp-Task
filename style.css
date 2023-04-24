@@ -206,6 +206,17 @@ html {
     background-color: #FEBF0F;
 }
 
+.wel{
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .wel {
+       margin-left: 4%;
+    }
+    
+  }
+
 .main_link:link,
 .main_link:visited{
     text-decoration: none;
@@ -448,11 +459,5 @@ margin-right: 50%;
 .footer_hover li a:hover:after{
     transform: scaleX(1);
 }
-
-/* .footer_hover li a:after{
-    transform-origin:  0% 50%;
-} */
-
-
 
 /* End Footer */
