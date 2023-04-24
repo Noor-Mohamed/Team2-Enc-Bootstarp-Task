@@ -371,3 +371,64 @@ margin-right: 50%;
 .landing_text{
     border-top: 1px solid #FEBF0F;
 }
+/* Start Footer */
+.footer_mohamed{
+    color: #fff;
+}
+.enactus_brand{
+    margin-left: 80px;
+}
+.enactus_brand img{
+    margin-left: 40px;
+}
+.hook{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.social_footer{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.facebook:link,
+.facebook:visited{
+    color: #fff;
+    transition: 0.6s;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.facebook:hover{
+    color: #FEBF0F;
+}
+.twitter:link,
+.twitter:visited{
+    color: #fff;
+    transition: 0.6s;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.twitter:hover{
+    color: #FEBF0F;
+}
+.insta:link,
+.insta:visited{
+    color: #fff;
+    transition: 0.6s;
+    font-size: 20px;
+}
+
+.insta:hover{
+    color: #FEBF0F;
+}
+
+.contact_footer i{
+    color: #fff;
+}
+.contact_footer li a:link,
+.contact_footer li a:visited{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+/* End Footer */
